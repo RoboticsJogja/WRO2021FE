@@ -43,7 +43,9 @@ The programming language used for the vehicle is Python. The code for the self-d
 3. `motoric module` which controls the movement of the vehicle, including speed, angle of turn, and direction. The vehicle uses one DC motor, connecting to a motor driver module which controls its velocity, and one servo motor which control its angle of turn. The speed and direction of the DC motor is held constant throughout the program, while the servo motor directly depends on the ultrasonic sensors.
 4. `computer vision module` which controls the camera located in front of the vehicle. The camera is used to detect red and green objects on the field, and thus allowing the vehicle to avoid them accordingly. This module takes advantage of a computer vision library called OpenCV.
 
-Other than the 4 modules mentioned above, there are other functionalities contained in the main program, including the control for the push button used to start the program, and the indicator LEDs located on the vehicle. The main program also holds the math and logic for the wall-following mechanism of the vehicle and its colour detecting functionality.
+Other than the 4 modules mentioned above, there are other functionalities contained in the main program, including the control for the push button used to start the program, and the indicator LEDs located on the vehicle. The main program also holds the math and logic for the wall-following mechanism of the vehicle and its colour detecting functionality. Here is the flowchart of the main outline of the program:
+![Untitled Diagram](https://user-images.githubusercontent.com/94065614/141345498-ca738ac1-3525-417c-bf4f-aacf027ce74a.jpg)
+
 
 ### Electromechanical Components
 The self-driven vehicle uses 10 different components, with the details and connections to each parts attached to the aforementioned folders:
