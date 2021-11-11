@@ -37,7 +37,7 @@ The code for the self-driven vehicle consists of 5 different modules:
 Other than the 5 modules mentioned above, there are other functionalities contained in the main program, including the control for the push button used to start the program, and the indicator LEDs located on the vehicle. The main program also holds the math and logic for the wall-following mechanism of the vehicle and its colour detecting functionality.
 
 ### Electromechanical Components
-The self-driven vehicle uses 6 different components:
+The self-driven vehicle uses 9 different components:
 1. `Raspberry PI` is a series of small single-board computers (SBCs) developed in the United Kingdom, able to be connected to a number of different outputs and inputs such as visual ouput to a computer screen or an input from a keyboard. Other than that, it has multiple General-Purpose Input/Output (GPIO) pins able to be connected to modules such as sensors and motors, receiving input and/our output, computing information, and giving commands by using Python or Scratch as its programming language.  It uses a  Broadcom BCM2837 SoC with a 1.2 GHz 64-bit quad-core ARM Cortex-A53 processor, with 512 KB shared L2 cache. 
 3. `DC Motor and L298N Motor Driver Module` The L298N is a dual-channel H-Bridge motor driver capable of driving a pair of DC motors. That means it can individually drive up to two motors making it ideal for building two-wheel robot platforms. Other than its minimal design, it also provides an onboard 5V regulator that can be used to power 5V circuits very conveniently
 5. `MG90S Servo Motor` is a lightweight micro servo motor with metal gear and comes with high output power. This servo motor serves as a steering mechanism as it controls the vehicle's front wheel's angle.
