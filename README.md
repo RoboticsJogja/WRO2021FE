@@ -34,19 +34,17 @@ Other than the 5 modules mentioned above, there are other functionalities contai
 ### Electromechanical Components
 The self-driven vehicle uses 6 different components:
 1. `Raspberry PI` is a series of small single-board computers (SBCs) developed in the United Kingdom, able to be connected to a number of different outputs and inputs such as visual ouput to a computer screen or an input from a keyboard. Other than that, it has multiple General-Purpose Input/Output (GPIO) pins able to be connected to modules such as sensors and motors, receiving input and/our output, computing information, and giving commands by using Python or Scratch as its programming language.  It uses a  Broadcom BCM2837 SoC with a 1.2 GHz 64-bit quad-core ARM Cortex-A53 processor, with 512 KB shared L2 cache. 
-3. `DC Motor and L298N Motor Driver Module` The L298N is a dual-channel H-Bridge motor driver capable of driving a pair of DC motors. That means it can individually drive up to two motors making it ideal for building two-wheel robot platforms. It is a commonly used component for prototypes and hobbyist projects, as it is easy to use and interface the L298 with a Raspberry Pi or an Arduino. Other than its minimal design, it also provides an onboard 5V regulator that you can use to power your 5V circuits very conveniently
-5. `MG90S Servo Motor`
-6. `HC-SR04 Ultrasonic Sensors`
-7. `TCS Colour Sensor`
-8. `Push Button`
-9. `Indicator LED`
-10. `Voltage Regulator`
-11. `8 1,3 Volt Rechargable Batteries`
+3. `DC Motor and L298N Motor Driver Module` The L298N is a dual-channel H-Bridge motor driver capable of driving a pair of DC motors. That means it can individually drive up to two motors making it ideal for building two-wheel robot platforms. Other than its minimal design, it also provides an onboard 5V regulator that can be used to power 5V circuits very conveniently
+5. `MG90S Servo Motor` is a lightweight micro servo motor with metal gear and comes with high output power. This servo motor serves as a steering mechanism as it controls the vehicle's front wheel's angle.
+7. `HC-SR04 Ultrasonic Sensors`At its core, the HC-SR04 Ultrasonic distance sensor consists of two ultrasonic transducers. The one acts as a transmitter which converts electrical signal into 40 KHz ultrasonic sound pulses. The receiver listens for the transmitted pulses. If it receives them it produces an output pulse whose width can be used to determine the distance the pulse travelled. The sensor is small, easy to use, and offers excellent non-contact range detection between 2 cm to 400 cm with an accuracy of 3mm. Since it operates on 5 volts, it can be hooked directly to any 5V logic microcontrollers.
+8. `TCS3200 Colour Sensor` is a sensor that uses a TAOS TCS3200 RGB sensor chip to detect color. It also contains four white LEDs that light up the object in front of it. The TCS3200 has an array of photodiodes with 4 different filters, 16 photodiodes with filters sensitive to each of the three colours, Red, Green, Blue, and 16 photodiodes without a filter.  By selectively choosing the photodiode filter’s readings, you’re able to detect the intensity of the different colors. The sensor has a current-to-frequency converter that converts the photodiodes’ readings into a square wave with a frequency that is proportional to the light intensity of the chosen color. This frequency is then, read by the Raspberry Pi.
+9. `Push Button` a simple push button is used to start the vehicle.
+10. `Indicator LED` a single LED is used to indicate whether the program is running or not.
+12. `8, 1.5 V Rechargable Batteries` this vehicle needs 12 volts of electrical power to run, hence 8, 1.5 V Rechargable batteries are used.
+13. `DC Stepdown with Voltmeter` is used to control the power input from the batteries, and as a voltmeter to indicate the remaining voltage available from the batteries.
 
 ### Code Compiling Process
 
-
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
-
+As a Raspberry Pi, an SBC, is used as a controller, the coding, building, and compiling of the program is done directly within the vehicle, and is set to automatically run on boot.
 
 
