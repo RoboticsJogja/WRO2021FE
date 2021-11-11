@@ -4,7 +4,12 @@
 
 Development Team
 ====
+Team Name : KUMBANG JOGJA
+Country   : Indonesia
 
+Member 1  : Reynard Ardian Simanjuntka
+Member 2  : Adamsyah Haryo Saksono
+Coach     : Bambang Dwi Jayanto
 
 
 Engineering materials
