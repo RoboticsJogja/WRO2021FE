@@ -14,6 +14,11 @@ Development Team
 * Member 2  : Adamsyah Haryo Saksono
 * Coach     : Bambang Dwi Jayanto
 
+Youtube Video URL
+====
+<img src="https://user-images.githubusercontent.com/94065614/141338427-e405ab0e-7892-4427-8235-a43acce31be9.jpg" width="300">
+
+https://youtu.be/kMnmidmwntc
 
 Engineering materials
 ====
