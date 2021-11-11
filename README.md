@@ -32,7 +32,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 ## Introduction
 
 ### The Code
-The code for the self-driven vehicle consists of 4 different modules:
+The programming language used for the vehicle is Python. The code for the self-driven vehicle itself consists of 4 different modules:
 1. `ultrasonic module` which controls the two ultrasonic sensors that are attached to the vehicle, one on the right side of the vehicle's front, and the other on the left. The ultrasonic sensors are used to detect walls and/or objects around the vehicle, both facing slightly outwards as to give the vehicle more space and time to anticipate condition of the field in front of it. This module inside the code holds every command regarding object detection, which in turn will contribute greatly to the movement behaviour of the vehicle.
 2. `colour sensor module` which controls the RGB colour sensor located on the back-side of the vehicle. The colour sensor is used to detect the orange and/or blue lines on each corners of the arena, and which helps the vehicle to keep track of its position relative to its starting point, and allows it to stop at where it started after doing 3 rotations around the arena.
 3. `motoric module` which controls the movement of the vehicle, including speed, angle of turn, and direction. The vehicle uses one DC motor, connecting to a motor driver module which controls its velocity, and one servo motor which control its angle of turn. The speed and direction of the DC motor is held constant throughout the program, while the servo motor directly depends on the ultrasonic sensors.
@@ -52,8 +52,7 @@ The L298N is a dual-channel H-Bridge motor driver capable of driving a pair of D
 
 #### 3. MG90S Servo Motor 
 <img src="https://user-images.githubusercontent.com/94065614/141336083-a77e4f03-306c-475d-a0b8-13fcf00e07fe.jpg" width="300">
-The MG90S is a lightweight micro servo motor with metal gear and comes with high output power. This servo motor serves as a steering mechanism as it controls the vehicle's front wheel's angle.
-
+The MG90S is a lightweight micro servo motor with metal gear and comes with high output power. This servo motor serves as a steering mechanism as it controls the vehicle's front wheel's angle. The servo motor is attached to an ackerman steering geometrical mechanism which will aid the vehicle in turning.
 
 #### 4. HC-SR04 Ultrasonic Sensors
 <img src="https://user-images.githubusercontent.com/94065614/141336295-342c3063-1fbc-446c-a660-c61c362168b5.jpg" width="300">
