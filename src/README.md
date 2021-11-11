@@ -1,6 +1,6 @@
 Control software
 ====
 
-This directory must contain code for control software which is used by the vehicle to participate in the competition and which was developed by the participants.
+This directory contains code for control software which is used by the vehicle to be self-driven.
 
-All artifacts required to resolve dependencies and build the project must be included in this directory as well.
+We use Pascal language for the code. It was built and compiled directly in the SBC, the Raspberry Pi 3B+, we used.
