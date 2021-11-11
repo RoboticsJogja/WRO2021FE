@@ -28,14 +28,18 @@ Other than the 5 modules mentioned above, there are other functionalities contai
 
 ### Electromechanical Components
 The self-driven vehicle uses 6 different components:
-1. Raspberry PI
-2. DC Motor and L298N Motor Driver Module
-3. SG-9G Servo Motor
-4. HC-SR04 Ultrasonic Sensors
-5. TCS Colour Sensor
-6. Push Button
-7. Indicator LED
-8. Regulator
+1. `Raspberry PI` is a series of small single-board computers (SBCs) developed in the United Kingdom, able to be connected to a number of different outputs and inputs such as visual ouput to a computer screen or an input from a keyboard. Other than that, it has multiple General-Purpose Input/Output (GPIO) pins able to be connected to modules such as sensors and motors, receiving input and/our output, computing information, and giving commands by using Python or Scratch as its programming language.  It uses a  Broadcom BCM2837 SoC with a 1.2 GHz 64-bit quad-core ARM Cortex-A53 processor, with 512 KB shared L2 cache. 
+3. `DC Motor and L298N Motor Driver Module` The L298N is a dual-channel H-Bridge motor driver capable of driving a pair of DC motors. That means it can individually drive up to two motors making it ideal for building two-wheel robot platforms.
+5. MG90S Servo Motor
+6. HC-SR04 Ultrasonic Sensors
+7. TCS Colour Sensor
+8. Push Button
+9. Indicator LED
+10. Voltage Regulator
+
+### Code Compiling Processr
+
+
 _This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
 
 
