@@ -24,7 +24,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 * `video` contains Youtube link of our vehicle running
 * `schemes` contains 2 schematic diagrams of the electromechanical components used in our vehicle and how they connect to each other
 * `src` contains the code we made so that the vehicle be self-driven
-* `models` contains Lego 3D model of the vehicles
+* `models` contains Lego 3D model of our vehicle
 
 ## Introduction
 
